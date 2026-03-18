@@ -13,7 +13,7 @@ export function QRCodeToggle() {
 
     import("qrcode").then((mod) => {
       const QRCode = mod.default ?? mod;
-      QRCode.toDataURL(window.location.href, {
+      QRCode.toDataURL("https://saalim.dev", {
         width: 200,
         margin: 2,
         color: {

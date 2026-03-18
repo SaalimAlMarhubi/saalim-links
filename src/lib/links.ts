@@ -36,8 +36,8 @@ export const links: Link[] = [
   },
   {
     title: "Instagram",
-    description: "@saalim",
-    href: "https://www.instagram.com/saalim/",
+    description: "@saalimalmarhubi",
+    href: "https://www.instagram.com/saalimalmarhubi/",
     icon: "instagram",
     section: "connect",
     iconTheme: "bg-pink-600/15 text-pink-400",
@@ -57,7 +57,6 @@ export const links: Link[] = [
     icon: "sakinah",
     section: "work",
     featured: true,
-    badge: "Coming soon",
     iconTheme: "bg-emerald-500/15 text-emerald-400",
   },
 ];
