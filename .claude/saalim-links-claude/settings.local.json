@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:saalimalmarhubi.com)",
+      "Bash(mv /Users/saalim/code/saalim-links/docs /tmp/saalim-links-docs)",
+      "Bash(mv /Users/saalim/code/saalim-links/.claude /tmp/saalim-links-claude)"
+    ]
+  }
+}
