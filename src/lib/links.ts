@@ -21,7 +21,7 @@ export const links: Link[] = [
   {
     title: "YouTube",
     description: "Dev vlogs & tech content",
-    href: "https://youtube.com/@MandemInTech",
+    href: "https://youtube.com/@saalimalmarhubi",
     icon: "youtube",
     section: "connect",
     iconTheme: "bg-red-600/12 text-red-500",
@@ -29,7 +29,7 @@ export const links: Link[] = [
   {
     title: "TikTok",
     description: "Short-form clips",
-    href: "https://www.tiktok.com/@mandem.in",
+    href: "https://www.tiktok.com/@saalimalmarhubi",
     icon: "tiktok",
     section: "connect",
     iconTheme: "bg-slate-600/20 text-slate-100",
