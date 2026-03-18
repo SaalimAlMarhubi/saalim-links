@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { LinkSection } from "@/components/LinkSection";
+import { QRCodeToggle } from "@/components/QRCodeToggle";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <LinkSection section="connect" label="Connect" startDelay={1} />
       <LinkSection section="work" label="Work" startDelay={5} />
+      <QRCodeToggle />
     </main>
   );
 }
