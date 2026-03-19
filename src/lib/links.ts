@@ -20,7 +20,7 @@ export const links: Link[] = [
   },
   {
     title: "YouTube",
-    description: "Dev vlogs & tech content",
+    description: "Building in public & dev vlogs",
     href: "https://youtube.com/@saalimalmarhubi",
     icon: "youtube",
     section: "connect",
@@ -28,7 +28,7 @@ export const links: Link[] = [
   },
   {
     title: "TikTok",
-    description: "Short-form clips",
+    description: "Short-form dev content",
     href: "https://www.tiktok.com/@saalimalmarhubi",
     icon: "tiktok",
     section: "connect",
@@ -36,7 +36,7 @@ export const links: Link[] = [
   },
   {
     title: "Instagram",
-    description: "@saalimalmarhubi",
+    description: "Dev life & behind the scenes",
     href: "https://www.instagram.com/saalimalmarhubi/",
     icon: "instagram",
     section: "connect",
@@ -44,7 +44,7 @@ export const links: Link[] = [
   },
   {
     title: "saalimalmarhubi.com",
-    description: "Portfolio & consulting",
+    description: "Portfolio & blog",
     href: "https://saalimalmarhubi.com",
     icon: "website",
     section: "work",

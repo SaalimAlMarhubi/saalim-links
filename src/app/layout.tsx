@@ -9,10 +9,10 @@ const urbanist = Urbanist({
 
 export const metadata: Metadata = {
   title: "Saalim Al Marhubi — Links",
-  description: "Full-stack developer & consultant. Find all my links here.",
+  description: "Full Stack Developer. Find all my links here.",
   openGraph: {
     title: "Saalim Al Marhubi — Links",
-    description: "Full-stack developer & consultant. Find all my links here.",
+    description: "Full Stack Developer. Find all my links here.",
     type: "website",
   },
   icons: {
