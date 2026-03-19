@@ -1,3 +1,6 @@
+"use client";
+
+import posthog from "posthog-js";
 import { Icon } from "./Icons";
 import type { Link } from "@/lib/links";
 
@@ -9,6 +12,13 @@ export function LinkCard({ link, delay }: { link: Link; delay: number }) {
       href={link.href}
       target="_blank"
       rel="noopener noreferrer"
+      onClick={() =>
+        posthog.capture("link_clicked", {
+          link_title: link.title,
+          link_url: link.href,
+          link_section: link.section,
+        })
+      }
       className={`animate-fade-up group relative flex items-center gap-4 overflow-hidden rounded-xl border p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-purple-500/5 ${
         isFeatured
           ? "border-emerald-500/15 bg-gradient-to-br from-emerald-500/8 to-slate-800"
